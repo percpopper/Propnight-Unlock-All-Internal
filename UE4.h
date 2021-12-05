@@ -11,11 +11,11 @@ public:
 		return Data[i];
 	};
 
-	void Allocate(INT NumOfElements)
+	void AllocateInt32(INT NumOfElements)
 	{
 		NumOfElements += 1;
 
-		Data = (int32_t*)malloc(sizeof(T) * NumOfElements); 
+		Data = (int32_t*)malloc(sizeof(int32_t) * NumOfElements); 
 		/*
 		   This isnt freed nor do I care (neither will UE4). 
 		   So just relaunch game after your done so it gets freed automatically. This unlocker is persistent so relaunch is ok.

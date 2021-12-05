@@ -31,7 +31,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 	TArray<int32_t> OwnedSkins;
 
 	// We Need 54 Elements ( The amount of skins in the game we want to unlock )
-	OwnedSkins.Allocate(54); 
+	OwnedSkins.AllocateInt32(54); 
 
 
 	/*

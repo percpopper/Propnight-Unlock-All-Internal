@@ -3,8 +3,6 @@
 template<class T>
 struct TArray
 {
-	friend struct FString;
-
 public:
 	inline T& operator[](int i)
 	{

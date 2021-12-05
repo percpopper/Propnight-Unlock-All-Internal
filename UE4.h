@@ -18,7 +18,7 @@ public:
 		Data = (int32_t*)malloc(sizeof(T) * NumOfElements); 
 		/*
 		   This isnt freed nor do I care (neither will UE4). 
-		   So just relaunch game after your done so it gets freed automatically as this unlocker is persistent.
+		   So just relaunch game after your done so it gets freed automatically. This unlocker is persistent so relaunch is ok.
 		*/
 		Count = NumOfElements;
 	}

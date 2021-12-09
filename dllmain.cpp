@@ -30,8 +30,8 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 
 	TArray<int32_t> OwnedSkins;
 
-	// We Need 54 Elements ( The amount of skins in the game we want to unlock )
-	OwnedSkins.AllocateInt32(54); 
+	// We Need 55 Elements ( The amount of skins in the game we want to unlock )
+	OwnedSkins.Allocate(55); 
 
 
 	/*
@@ -93,20 +93,21 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 	OwnedSkins[40] = 433;
 	OwnedSkins[41] = 432;
 	OwnedSkins[42] = 434;
+	OwnedSkins[43] = 441;
 
 	// KATE
-	OwnedSkins[43] = 511;
-	OwnedSkins[44] = 521;
-	OwnedSkins[45] = 522;
-	OwnedSkins[46] = 523;
-	OwnedSkins[47] = 524;
-	OwnedSkins[48] = 531;
-	OwnedSkins[49] = 534;
-	OwnedSkins[50] = 533;
-	OwnedSkins[51] = 535;
-	OwnedSkins[52] = 541;
-	OwnedSkins[53] = 542;
-	OwnedSkins[54] = 532;
+	OwnedSkins[44] = 511;
+	OwnedSkins[45] = 521;
+	OwnedSkins[46] = 522;
+	OwnedSkins[47] = 523;
+	OwnedSkins[48] = 524;
+	OwnedSkins[49] = 531;
+	OwnedSkins[50] = 534;
+	OwnedSkins[51] = 533;
+	OwnedSkins[52] = 535;
+	OwnedSkins[53] = 541;
+	OwnedSkins[54] = 542;
+	OwnedSkins[55] = 532;
 
 	GameInstance->SkinIDThatsPlayerOwns = OwnedSkins;
 

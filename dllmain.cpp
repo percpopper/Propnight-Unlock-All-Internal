@@ -223,7 +223,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 
 
 	/////////////////////
-	/// AVATARS 
+	/// TAGS 
 	/////////////////////
 
 	TArray<int32_t> ArrTagsPlayerOwn;

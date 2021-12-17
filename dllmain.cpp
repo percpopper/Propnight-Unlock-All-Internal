@@ -30,9 +30,8 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 
 	TArray<int32_t> OwnedSkins;
 
-	// We Need 55 Elements ( The amount of skins in the game we want to unlock )
-	OwnedSkins.AllocateInt32(55); 
-
+	// We Need 63 Elements ( The amount of skins in the game we want to unlock )
+	OwnedSkins.AllocateInt32(63); 
 
 	/*
 		If your wondering how I obtained the ID of each skin.
@@ -44,73 +43,86 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 	*/
 
 	// ISAAC
-	OwnedSkins[0] = 111;
-	OwnedSkins[1] = 121;
-	OwnedSkins[2] = 122;
-	OwnedSkins[3] = 123;
-	OwnedSkins[4] = 124;
-	OwnedSkins[5] = 131;
-	OwnedSkins[6] = 132;
-	OwnedSkins[7] = 133;
-	OwnedSkins[8] = 134;
-	OwnedSkins[9] = 141;
-	OwnedSkins[10] = 142;
+	OwnedSkins[0] = 111; // BASIC
+	OwnedSkins[1] = 121; // AUTUMN JACKET
+	OwnedSkins[2] = 122; // SPRING JACKET
+	OwnedSkins[3] = 123; // SUMMER JACKET
+	OwnedSkins[4] = 124; // WINTER JACKET
+	OwnedSkins[5] = 131; // FULL GOLD
+	OwnedSkins[6] = 132; // FULL SILVER
+	OwnedSkins[7] = 133; // SUMMER FAN
+	OwnedSkins[8] = 134; // WINTER ENJOYER
+	OwnedSkins[9] = 141; // MARATHON
+	OwnedSkins[10] = 142; // SPRINT
 
 	// TAIGA
-	OwnedSkins[11] = 211;
-	OwnedSkins[12] = 221;
-	OwnedSkins[13] = 222;
-	OwnedSkins[14] = 223;
-	OwnedSkins[15] = 224;
-	OwnedSkins[16] = 231;
-	OwnedSkins[17] = 234;
-	OwnedSkins[18] = 233;
-	OwnedSkins[19] = 232;
-	OwnedSkins[20] = 241;
-	OwnedSkins[21] = 242;
-	OwnedSkins[22] = 243;
+	OwnedSkins[11] = 211; // BASIC
+	OwnedSkins[12] = 221; // AQUA
+	OwnedSkins[13] = 222; // BUBBLE GUM
+	OwnedSkins[14] = 223; // CITRUS
+	OwnedSkins[15] = 224; // SPARK
+	OwnedSkins[16] = 231; // SUNRISE
+	OwnedSkins[17] = 234; // SUNSET
+	OwnedSkins[18] = 233; // RED CHROME
+	OwnedSkins[19] = 232; // BLUE GOLD
+	OwnedSkins[20] = 241; // MAJOR LEAGUE
+	OwnedSkins[21] = 242; // PREMIER LEAGUE
+	OwnedSkins[22] = 243; // BASEBALL STAR
 
 	// CHRIS
-	OwnedSkins[23] = 311;
-	OwnedSkins[24] = 321;
-	OwnedSkins[25] = 322;
-	OwnedSkins[26] = 323;
-	OwnedSkins[27] = 324;
-	OwnedSkins[28] = 331;
-	OwnedSkins[29] = 332;
-	OwnedSkins[30] = 333;
-	OwnedSkins[31] = 334;
-	OwnedSkins[32] = 341;
-	OwnedSkins[33] = 342;
+	OwnedSkins[23] = 311; // BASIC
+	OwnedSkins[24] = 321; // TEAM FOXES
+	OwnedSkins[25] = 322; // TEAM LIONS
+	OwnedSkins[26] = 323; // TEAM SNAKES
+	OwnedSkins[27] = 324; // TEAM WOLVES
+	OwnedSkins[28] = 331; // SUNSHINE
+	OwnedSkins[29] = 332; // SKYLIGHT
+	OwnedSkins[30] = 333; // DARK SIDE
+	OwnedSkins[31] = 334; // LIGHT SIDE
+	OwnedSkins[32] = 341; // TRACER
+	OwnedSkins[33] = 342; // PARKOUR
 
 	// MABLE
-	OwnedSkins[34] = 411;
-	OwnedSkins[35] = 421;
-	OwnedSkins[36] = 422;
-	OwnedSkins[37] = 423;
-	OwnedSkins[38] = 424;
-	OwnedSkins[39] = 431;
-	OwnedSkins[40] = 433;
-	OwnedSkins[41] = 432;
-	OwnedSkins[42] = 434;
-	OwnedSkins[43] = 441;
+	OwnedSkins[34] = 411; // BASIC
+	OwnedSkins[35] = 421; // MANGO
+	OwnedSkins[36] = 422; // MINT
+	OwnedSkins[37] = 423; // PISTACHIO
+	OwnedSkins[38] = 424; // STRAWBERRY
+	OwnedSkins[39] = 431; // DOUBLE CHOCOLATE
+	OwnedSkins[40] = 433; // RED CHOCOLATE
+	OwnedSkins[41] = 432; // COZY MORNING
+	OwnedSkins[42] = 434; // COZY EVENING
+	OwnedSkins[43] = 441; // FOOTBALL STAR
+	OwnedSkins[44] = 442; // STREET KID
+	OwnedSkins[45] = 443; // STREET ARTIST
 
 	// KATE
-	OwnedSkins[44] = 511;
-	OwnedSkins[45] = 521;
-	OwnedSkins[46] = 522;
-	OwnedSkins[47] = 523;
-	OwnedSkins[48] = 524;
-	OwnedSkins[49] = 531;
-	OwnedSkins[50] = 534;
-	OwnedSkins[51] = 533;
-	OwnedSkins[52] = 535;
-	OwnedSkins[53] = 541;
-	OwnedSkins[54] = 542;
-	OwnedSkins[55] = 532;
+	OwnedSkins[46] = 511; // BASIC
+	OwnedSkins[47] = 521; // CARAMEL
+	OwnedSkins[48] = 522; // ICE CREAM
+	OwnedSkins[49] = 523; // MERMAID
+	OwnedSkins[50] = 524; // RASPBERRY
+	OwnedSkins[51] = 531; // FASHION MODEL
+	OwnedSkins[52] = 534; // FASHION DESIGNER
+	OwnedSkins[53] = 533; // BLEU DE FRANCE
+	OwnedSkins[54] = 535; // LE ROGUE FRANCAIS 
+	OwnedSkins[55] = 541; // ROCKET
+	OwnedSkins[56] = 542; // GLIDER
+	OwnedSkins[57] = 532; // GAMER GIRL
+
+	// BANSHEE
+	OwnedSkins[58] = 611; // BASIC
+	OwnedSkins[59] = 631; // NURSE
+
+	// AKASHA
+	OwnedSkins[60] = 911; // BASIC
+	OwnedSkins[61] = 941; // BLOOD MAIDEN
+
+	// IGOR
+	OwnedSkins[62] = 101100; // BASIC
+	OwnedSkins[63] = 104100; // BEAR
 
 	GameInstance->SkinIDThatsPlayerOwns = OwnedSkins;
 
 	return TRUE;
 }
-

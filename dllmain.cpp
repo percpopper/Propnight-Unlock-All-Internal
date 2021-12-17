@@ -29,7 +29,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 	if (!GameInstance) return FALSE;
 
 	/*
-		If your wondering how I obtained the ID of each skin.
+		If your wondering how I obtained the IDs.
 
 		Place hook on W_PlayerSkins.W_PlayerSkins_C.SkinSelectButton, Its parameter is UW_PlayerSkinInfo_C*.
 		Knowing that we are able to read int32_t SkinID using the parameter when the function is called.

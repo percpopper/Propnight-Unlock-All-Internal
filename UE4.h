@@ -33,7 +33,10 @@ struct UGameInstance {
 	TArray<struct UPlayer*> LocalPlayers;
 	char pad_0001[0x5C0];
 	TArray<int32_t> SkinIDThatsPlayerOwns;
-
+	char pad_0002[0xE8];
+	TArray<int32_t> ArrAvatarPlayerOwn;
+	TArray<int32_t> ArrBannerPlayerOwn; 
+	TArray<int32_t> ArrTagsPlayerOwn;
 };
 
 // Class Engine.GameViewportClient

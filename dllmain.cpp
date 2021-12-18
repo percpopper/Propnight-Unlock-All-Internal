@@ -228,7 +228,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 
 	TArray<int32_t> ArrTagsPlayerOwn;
 
-	ArrTagsPlayerOwn.AllocateInt32(30);
+	ArrTagsPlayerOwn.AllocateInt32(35);
 
 	ArrTagsPlayerOwn[0] = 1000; // HIDE
 	ArrTagsPlayerOwn[1] = 1001; // PROP GOD
@@ -261,7 +261,12 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 	ArrTagsPlayerOwn[28] = 1028; // TRICK OR TREAT
 	ArrTagsPlayerOwn[29] = 1029; // SEARCH AND DESTROY
 	ArrTagsPlayerOwn[30] = 1030; // RIP AND TEAR
-
+	ArrTagsPlayerOwn[31] = 1031; // SUPERSTAR
+	ArrTagsPlayerOwn[32] = 1032; // VETERAN
+	ArrTagsPlayerOwn[33] = 1033; // YOUR MOM
+	ArrTagsPlayerOwn[34] = 1034; // WANTED
+	ArrTagsPlayerOwn[35] = 1035; // POTATO
+	
 	GameInstance->ArrTagsPlayerOwn = ArrTagsPlayerOwn;
 
 	

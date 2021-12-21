@@ -228,7 +228,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 
 	TArray<int32_t> ArrTagsPlayerOwn;
 
-	ArrTagsPlayerOwn.AllocateInt32(35);
+	ArrTagsPlayerOwn.AllocateInt32(37);
 
 	ArrTagsPlayerOwn[0] = 1000; // HIDE
 	ArrTagsPlayerOwn[1] = 1001; // PROP GOD
@@ -266,6 +266,8 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 	ArrTagsPlayerOwn[33] = 1033; // YOUR MOM
 	ArrTagsPlayerOwn[34] = 1034; // WANTED
 	ArrTagsPlayerOwn[35] = 1035; // POTATO
+	ArrTagsPlayerOwn[36] = 1036; // GIT GUD
+	ArrTagsPlayerOwn[37] = 1037; // FREE HUGS
 	
 	GameInstance->ArrTagsPlayerOwn = ArrTagsPlayerOwn;
 

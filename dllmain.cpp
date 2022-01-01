@@ -49,7 +49,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 
 	TArray<int32_t> SkinIDThatsPlayerOwns;
 
-	SkinIDThatsPlayerOwns.AllocateInt32(63); 
+	SkinIDThatsPlayerOwns.AllocateInt32(71); 
 
 	// ISAAC
 	SkinIDThatsPlayerOwns[0] = 111; // BASIC
@@ -63,73 +63,86 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 	SkinIDThatsPlayerOwns[8] = 134; // WINTER ENJOYER
 	SkinIDThatsPlayerOwns[9] = 141; // MARATHON
 	SkinIDThatsPlayerOwns[10] = 142; // SPRINT
+	SkinIDThatsPlayerOwns[11] = 143; // CHRISTMAS
 
 	// TAIGA
-	SkinIDThatsPlayerOwns[11] = 211; // BASIC
-	SkinIDThatsPlayerOwns[12] = 221; // AQUA
-	SkinIDThatsPlayerOwns[13] = 222; // BUBBLE GUM
-	SkinIDThatsPlayerOwns[14] = 223; // CITRUS
-	SkinIDThatsPlayerOwns[15] = 224; // SPARK
-	SkinIDThatsPlayerOwns[16] = 231; // SUNRISE
-	SkinIDThatsPlayerOwns[17] = 234; // SUNSET
-	SkinIDThatsPlayerOwns[18] = 233; // RED CHROME
-	SkinIDThatsPlayerOwns[19] = 232; // BLUE GOLD
-	SkinIDThatsPlayerOwns[20] = 241; // MAJOR LEAGUE
-	SkinIDThatsPlayerOwns[21] = 242; // PREMIER LEAGUE
-	SkinIDThatsPlayerOwns[22] = 243; // BASEBALL STAR
+	SkinIDThatsPlayerOwns[12] = 211; // BASIC
+	SkinIDThatsPlayerOwns[13] = 221; // AQUA
+	SkinIDThatsPlayerOwns[14] = 222; // BUBBLE GUM
+	SkinIDThatsPlayerOwns[15] = 223; // CITRUS
+	SkinIDThatsPlayerOwns[16] = 224; // SPARK
+	SkinIDThatsPlayerOwns[17] = 231; // SUNRISE
+	SkinIDThatsPlayerOwns[18] = 234; // SUNSET
+	SkinIDThatsPlayerOwns[19] = 233; // RED CHROME
+	SkinIDThatsPlayerOwns[20] = 232; // BLUE GOLD
+	SkinIDThatsPlayerOwns[21] = 241; // MAJOR LEAGUE
+	SkinIDThatsPlayerOwns[22] = 242; // PREMIER LEAGUE
+	SkinIDThatsPlayerOwns[23] = 243; // BASEBALL STAR
+	SkinIDThatsPlayerOwns[24] = 244; // CHRISTMAS
 
 	// CHRIS
-	SkinIDThatsPlayerOwns[23] = 311; // BASIC
-	SkinIDThatsPlayerOwns[24] = 321; // TEAM FOXES
-	SkinIDThatsPlayerOwns[25] = 322; // TEAM LIONS
-	SkinIDThatsPlayerOwns[26] = 323; // TEAM SNAKES
-	SkinIDThatsPlayerOwns[27] = 324; // TEAM WOLVES
-	SkinIDThatsPlayerOwns[28] = 331; // SUNSHINE
-	SkinIDThatsPlayerOwns[29] = 332; // SKYLIGHT
-	SkinIDThatsPlayerOwns[30] = 333; // DARK SIDE
-	SkinIDThatsPlayerOwns[31] = 334; // LIGHT SIDE
-	SkinIDThatsPlayerOwns[32] = 341; // TRACER
-	SkinIDThatsPlayerOwns[33] = 342; // PARKOUR
+	SkinIDThatsPlayerOwns[25] = 311; // BASIC
+	SkinIDThatsPlayerOwns[26] = 321; // TEAM FOXES
+	SkinIDThatsPlayerOwns[27] = 322; // TEAM LIONS
+	SkinIDThatsPlayerOwns[28] = 323; // TEAM SNAKES
+	SkinIDThatsPlayerOwns[29] = 324; // TEAM WOLVES
+	SkinIDThatsPlayerOwns[30] = 331; // SUNSHINE
+	SkinIDThatsPlayerOwns[31] = 332; // SKYLIGHT
+	SkinIDThatsPlayerOwns[32] = 333; // DARK SIDE
+	SkinIDThatsPlayerOwns[33] = 334; // LIGHT SIDE
+	SkinIDThatsPlayerOwns[34] = 341; // TRACER
+	SkinIDThatsPlayerOwns[35] = 342; // PARKOUR
+	SkinIDThatsPlayerOwns[36] = 343; // CHRISTMAS
 
 	// MABLE
-	SkinIDThatsPlayerOwns[34] = 411; // BASIC
-	SkinIDThatsPlayerOwns[35] = 421; // MANGO
-	SkinIDThatsPlayerOwns[36] = 422; // MINT
-	SkinIDThatsPlayerOwns[37] = 423; // PISTACHIO
-	SkinIDThatsPlayerOwns[38] = 424; // STRAWBERRY
-	SkinIDThatsPlayerOwns[39] = 431; // DOUBLE CHOCOLATE
-	SkinIDThatsPlayerOwns[40] = 433; // RED CHOCOLATE
-	SkinIDThatsPlayerOwns[41] = 432; // COZY MORNING
-	SkinIDThatsPlayerOwns[42] = 434; // COZY EVENING
-	SkinIDThatsPlayerOwns[43] = 441; // FOOTBALL STAR
-	SkinIDThatsPlayerOwns[44] = 442; // STREET KID
-	SkinIDThatsPlayerOwns[45] = 443; // STREET ARTIST
+	SkinIDThatsPlayerOwns[37] = 411; // BASIC
+	SkinIDThatsPlayerOwns[38] = 421; // MANGO
+	SkinIDThatsPlayerOwns[39] = 422; // MINT
+	SkinIDThatsPlayerOwns[40] = 423; // PISTACHIO
+	SkinIDThatsPlayerOwns[41] = 424; // STRAWBERRY
+	SkinIDThatsPlayerOwns[42] = 431; // DOUBLE CHOCOLATE
+	SkinIDThatsPlayerOwns[43] = 433; // RED CHOCOLATE
+	SkinIDThatsPlayerOwns[44] = 432; // COZY MORNING
+	SkinIDThatsPlayerOwns[45] = 434; // COZY EVENING
+	SkinIDThatsPlayerOwns[46] = 441; // FOOTBALL STAR
+	SkinIDThatsPlayerOwns[47] = 442; // STREET KID
+	SkinIDThatsPlayerOwns[48] = 443; // STREET ARTIST
+	SkinIDThatsPlayerOwns[49] = 444; // CHRISTMAS
 
 	// KATE
-	SkinIDThatsPlayerOwns[46] = 511; // BASIC
-	SkinIDThatsPlayerOwns[47] = 521; // CARAMEL
-	SkinIDThatsPlayerOwns[48] = 522; // ICE CREAM
-	SkinIDThatsPlayerOwns[49] = 523; // MERMAID
-	SkinIDThatsPlayerOwns[50] = 524; // RASPBERRY
-	SkinIDThatsPlayerOwns[51] = 531; // FASHION MODEL
-	SkinIDThatsPlayerOwns[52] = 534; // FASHION DESIGNER
-	SkinIDThatsPlayerOwns[53] = 533; // BLEU DE FRANCE
-	SkinIDThatsPlayerOwns[54] = 535; // LE ROGUE FRANCAIS 
-	SkinIDThatsPlayerOwns[55] = 541; // ROCKET
-	SkinIDThatsPlayerOwns[56] = 542; // GLIDER
-	SkinIDThatsPlayerOwns[57] = 532; // GAMER GIRL
+	SkinIDThatsPlayerOwns[50] = 511; // BASIC
+	SkinIDThatsPlayerOwns[51] = 521; // CARAMEL
+	SkinIDThatsPlayerOwns[52] = 522; // ICE CREAM
+	SkinIDThatsPlayerOwns[53] = 523; // MERMAID
+	SkinIDThatsPlayerOwns[54] = 524; // RASPBERRY
+	SkinIDThatsPlayerOwns[55] = 531; // FASHION MODEL
+	SkinIDThatsPlayerOwns[56] = 534; // FASHION DESIGNER
+	SkinIDThatsPlayerOwns[57] = 533; // BLEU DE FRANCE
+	SkinIDThatsPlayerOwns[58] = 535; // LE ROGUE FRANCAIS 
+	SkinIDThatsPlayerOwns[59] = 541; // ROCKET
+	SkinIDThatsPlayerOwns[60] = 542; // GLIDER
+	SkinIDThatsPlayerOwns[61] = 532; // GAMER GIRL
+	SkinIDThatsPlayerOwns[62] = 543; // CHRISTMAS
 
 	// BANSHEE
-	SkinIDThatsPlayerOwns[58] = 611; // BASIC
-	SkinIDThatsPlayerOwns[59] = 631; // NURSE
+	SkinIDThatsPlayerOwns[63] = 611; // BASIC
+	SkinIDThatsPlayerOwns[64] = 631; // NURSE
+
+	// GRANNY
+	// None Yet...
+
+	// IMPOSTOR
+	SkinIDThatsPlayerOwns[65] = 811; // BASIC
+	SkinIDThatsPlayerOwns[66] = 841; // GENTLEMAN
+	SkinIDThatsPlayerOwns[67] = 851; // PUPPET
 
 	// AKASHA
-	SkinIDThatsPlayerOwns[60] = 911; // BASIC
-	SkinIDThatsPlayerOwns[61] = 941; // BLOOD MAIDEN
+	SkinIDThatsPlayerOwns[68] = 911; // BASIC
+	SkinIDThatsPlayerOwns[69] = 941; // BLOOD MAIDEN
 
 	// IGOR
-	SkinIDThatsPlayerOwns[62] = 101100; // BASIC
-	SkinIDThatsPlayerOwns[63] = 104100; // BEAR
+	SkinIDThatsPlayerOwns[70] = 101100; // BASIC
+	SkinIDThatsPlayerOwns[71] = 104100; // BEAR
 
 	GameInstance->SkinIDThatsPlayerOwns = SkinIDThatsPlayerOwns;
 
@@ -271,6 +284,5 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 	
 	GameInstance->ArrTagsPlayerOwn = ArrTagsPlayerOwn;
 
-	
 	return TRUE;
 }
